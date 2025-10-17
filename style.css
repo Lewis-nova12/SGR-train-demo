@@ -1,0 +1,11 @@
+/* small tweaks for map */
+#map { width: 100%; height: 600px; }
+
+/* simple marker style using emoji via divIcon */
+.train-icon {
+  font-size: 20px;
+  line-height: 1;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 1px #000;
+  pointer-events: auto;
+}
